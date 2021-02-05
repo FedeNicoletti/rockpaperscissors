@@ -16,7 +16,7 @@ main{
     justify-content: center;
 }
 
-.glass{
+.match{
     background: white;
     min-height: 80vh;
     width: 60%;
@@ -145,4 +145,37 @@ h3{
 }
 #scissors:focus{
     outline: none;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.scoreboard p{
+    text-align: center;
+    padding: 1rem;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', Arial;
+}
+
+.scoreboard h3{
+    margin-top: 10rem;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins', Arial;
+}
+
+.winner p{
+    text-align: center;
+    margin-top: 2rem;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', Arial;
 }
