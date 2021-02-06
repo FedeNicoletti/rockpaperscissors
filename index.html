@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>RockPaperScissors</title>
@@ -14,26 +13,26 @@
         <section class="match">
             <h3>ROCK, PAPER & SCISSORS!</h3>
             <div class="buttons">
-                    <button id="rock" name="rock" type="button"> </button>
+                    <button id="rock"  name="rock" type="button"> </button>
                     <button id="paper" name="paper" type="button"> </button>
                     <button id="scissors" name="scissors" type="button"> </button>
             </div>
             <div class="scoreboard">
-                <div class="userscore">
+                <div id="userscore" class="userscore">
                     <h3>Player</h3>
                     <p>0</p>
                 </div>
-                <div class="computerscore">
+                <div id="computerscore" class="computerscore">
                     <h3>Computer</h3>
                     <p>0</p>
                 </div>
             </div>
-            <div class="winner">
-                <p>Choose an option</p>
+            <h3 class="winner">Choose an option</h3>
             </div>
         </section>
     </main>
     <div class="circle1"></div>
     <div class="circle2"></div>
+    <script src="script.js"></script>
 </body>
 </html>

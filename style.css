@@ -171,9 +171,9 @@ h3{
     font-family: 'Poppins', Arial;
 }
 
-.winner p{
+.winner{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     color:rgba(0, 0, 0, 0.8);
     font-size: 1rem;
     font-weight: 600;
